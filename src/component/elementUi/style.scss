@@ -2,8 +2,17 @@
     color: #4F4F4F;
     font-size: 20px;
     cursor: context-menu;
+    position: absolute;
     .element {
         font-size: 20px;
         color: #9B51E0;
     }
+}
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+.top-left {
+    top: 0;
+    left: 0;
 }
