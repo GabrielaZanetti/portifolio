@@ -6,36 +6,121 @@
     background-color: $background;
 
     @include centralizarDiv;
-    .nav-bar {
+    .header-itens {
         width: 80%;
-        margin: 0 2%;
-        @include centralizarDiv;
-        .icon {
-            img {
-                height: 50px;
-            }
-        }
-        .nav {
-            display: flex;
-            gap: 2rem;
-            padding: 20px 0;
-            .nav-item {
-                font-size: 22px;
-                color: $white;
-                text-decoration: none;
-                position: relative; 
-                &::before {
-                    content: '#';
-                    position: absolute;
-                    left: -15px;
-                    top: 0;
-                    opacity: 0;
-                    transition: opacity 0.3s ease;
-                }
-                &:hover::before{
-                    opacity: 1;
+        .nav-bar {
+            margin: 0 2%;
+            @include centralizarDiv;
+            .icon {
+                img {
+                    height: 50px;
                 }
             }
+            .nav {
+                display: flex;
+                gap: 2rem;
+                padding: 20px 0;
+            }
+            .nav-mobile {
+                display: none;
+                flex-direction: column;
+                align-items: flex-end;
+                .wrapper {
+                    justify-content: center;
+                    align-items: center;
+                    .checkbox-wrapper {
+                        #toggle {
+                            display: none;
+                            &:checked + .checkbox {
+                                .trace {
+                                    &:nth-child(1) {
+                                        transform: rotate(45deg);
+                                        top: 17px;
+                                    }
+                                    &:nth-child(2) {
+                                        transform: translateX(-100px);
+                                        width: 30px;
+                                        visibility: hidden;
+                                        opacity: 0;
+                                    }
+                                    &:nth-child(3) {
+                                        transform: rotate(-45deg);
+                                        top: 17px;
+                                    }
+                                }
+                            }
+                        }
+                        .checkbox {
+                            width: 50px;
+                            height: 35px;
+                            display: flex;
+                            justify-content: center;
+                            position: relative;
+                            cursor: pointer;
+                            .trace {
+                                width: 20px;
+                                height: 2px;
+                                background-color: #fff;
+                                position: absolute;
+                                border-radius: 4px;
+                                transition: 0.5s ease-in-out;
+                                &:nth-child(1) {
+                                    top: 7px;
+                                    transform: rotate(0);
+                                }
+                                &:nth-child(2) {
+                                    top: 17px;
+                                    transform: rotate(0);
+                                }
+                                &:nth-child(3) {
+                                    top: 27px;
+                                    transform: rotate(0);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
+        .nav-mobile {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .nav-bar {
+                .nav {
+                    display: none;
+                }
+                .nav-mobile {
+                    display: flex;
+                }
+            }
+            .nav-mobile {
+                display: block;
+                .itens-mobile {
+                    display: none;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    height: 90vh;
+                }
+            }
+        }
+    }
+}
+.nav-item {
+    font-size: 22px;
+    color: $white;
+    text-decoration: none;
+    position: relative; 
+    &::before {
+        content: '#';
+        position: absolute;
+        left: -15px;
+        top: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    &:hover::before{
+        opacity: 1;
     }
 }
