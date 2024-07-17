@@ -1,0 +1,32 @@
+@import "../../global.scss";
+
+.Header {
+    @include centralizarDiv;
+    .nav-bar {
+        width: 80%;
+        margin: 0 2%;
+        @include centralizarDiv;
+        .nav {
+            display: flex;
+            gap: 2rem;
+            padding: 20px 0;
+            .nav-item {
+                font-size: 22px;
+                color: $white;
+                text-decoration: none;
+                position: relative; 
+                &::before {
+                    content: '#';
+                    position: absolute;
+                    left: -15px;
+                    top: 0;
+                    opacity: 0;
+                    transition: opacity 0.3s ease;
+                }
+                &:hover::before{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
