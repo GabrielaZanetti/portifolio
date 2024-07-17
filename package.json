@@ -28,7 +28,7 @@
     "lint": "npx eslint .",
     "lint:fix": "npm run lint -- --fix",
     "prettier:write": "npx prettier . --write",
-    "prepare": "husky"
+    "prepare": "husky && husky install"
   },
   "browserslist": {
     "production": [
