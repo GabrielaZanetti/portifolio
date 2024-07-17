@@ -1,6 +1,10 @@
 @import "../../global.scss";
 
 .Header {
+    width: 100%;
+    position: fixed;
+    background-color: $background;
+
     @include centralizarDiv;
     .nav-bar {
         width: 80%;
