@@ -8,10 +8,11 @@ interface Props {
 
 const UIElement: React.FC<Props> = ({ text, fechar = false }) => {
     const fecharTag = fechar ? "\\" : "";
+    const floatRight = fechar ? "float-right" : "";
     
     return (
-        <div className="UIElement">
-            <span className="element">&lt;{ fecharTag }</span>
+        <div className={floatRight + " UIElement"}>
+            <span className={"element"}>&lt;{ fecharTag }</span>
                 { text }
             <span className="element">&gt;</span>
         </div>

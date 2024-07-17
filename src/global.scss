@@ -19,3 +19,14 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    @include centralizarDiv();
+}
+
+.float-right {
+    float: right;
+}
