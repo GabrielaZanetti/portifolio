@@ -6,6 +6,11 @@
         width: 80%;
         margin: 0 2%;
         @include centralizarDiv;
+        .icon {
+            img {
+                height: 50px;
+            }
+        }
         .nav {
             display: flex;
             gap: 2rem;
