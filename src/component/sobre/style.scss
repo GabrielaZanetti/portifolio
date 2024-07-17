@@ -1,9 +1,7 @@
 #Sobre {
-    padding-top: 65px;
     position: relative;
     .container {
-        margin-top: 60px;
-        margin-bottom: 60px;
+        padding: 60px 0;
         .mensagem-sobre {
             width: 40%;
             .titulo {
@@ -19,6 +17,15 @@
             width: 30%;
             img {
                 width: 100%;
+            }
+        }
+        @media (max-width: 768px) {
+            flex-direction: column-reverse;
+            .mensagem-sobre {
+                width: 100%;
+            }
+            .foto {
+                width: 40%;
             }
         }
     }
