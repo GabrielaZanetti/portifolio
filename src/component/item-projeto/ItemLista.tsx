@@ -29,7 +29,7 @@ const ItemLista: React.FC<Props> = ({ title, linkImg, link, repositorio = true }
                 <div>Carregando...</div>
             )}
             <div className="titulo-projeto"> { title } </div>
-            <a href={linkView} target="_blank" className="btn-acessar" rel="noreferrer" title={`Acessar o ${tipoLink}`}>Acessar</a>
+            <a href={linkView} target="_blank" className="btn-purple" rel="noreferrer" title={`Acessar o ${tipoLink}`}>Acessar</a>
         </div>
     )
 }

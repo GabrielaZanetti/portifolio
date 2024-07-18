@@ -25,18 +25,4 @@
         text-transform: capitalize;
         font-size: 20px;
     }
-    .btn-acessar {
-        background-color: aqua;
-        border-color: aqua;
-        border-radius: 8px;
-        padding: 5px 10px;
-        text-decoration: none;
-        cursor: pointer;
-        color: #000;
-        margin-bottom: 5px;
-        &:hover, &:focus {
-            background-color: darken(aqua, 10%);
-            border-color: darken(aqua, 10%);
-        }
-    }
 }

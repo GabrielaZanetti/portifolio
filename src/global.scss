@@ -1,5 +1,6 @@
 $background: #333;
 $white: #fff;
+$roxo: #9B51E0;
 
 * {
     font-family: 'Fira Code', monospace;
@@ -33,4 +34,20 @@ body {
 
 .float-right {
     float: right;
+}
+
+.btn-purple {
+    background-color: $roxo;
+    border-color: $roxo;
+    border-radius: 8px;
+    padding: 5px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: center;
+    &:hover, &:focus {
+        background-color: darken($roxo, 10%);
+        border-color: darken($roxo, 10%);
+    }
 }

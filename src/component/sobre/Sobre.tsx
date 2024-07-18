@@ -26,6 +26,9 @@ const Sobre: React.FC = () => {
                     <div className="mensagem">
                         Além dessas habilidades, tenho experiência em UI/UX e estou continuamente aprimorando meus conhecimentos nessa área. Também estou explorando o design e desenvolvendo projetos básicos de back-end.
                     </div>
+                    <a href='./mais-sobre' className="btn-purple">
+                        Mais sobre mim
+                    </a>
                 </div>
                 <div className="foto">
                     <img src={eu} alt="Olá, sou a Gabriela" />
