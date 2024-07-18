@@ -1,0 +1,14 @@
+[
+    {
+        "title": "automatização",
+        "linkImg": "automatizacao.gif",
+        "link": "/curso-python/tree/main/aula1",
+        "repositorio": true
+    },
+    {
+        "title": "chat",
+        "linkImg": "chat.gif",
+        "link": "/curso-python/tree/main/aula4",
+        "repositorio": true
+    }
+]

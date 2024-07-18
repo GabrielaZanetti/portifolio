@@ -2,21 +2,9 @@ import React from 'react'
 import UIElement from '../elementUi/UIElement';
 import "./style.scss"
 import ItemLista from '../item-projeto/ItemLista';
+import arrayProjetos from './listaProjetos.json'
 
 const Projetos: React.FC = () => {
-    const arrayProjetos = [
-        {
-            title: "automatização",
-            linkImg: "automatizacao.gif",
-            link: "/curso-python/tree/main/aula1",
-            repositorio: true
-        }, {
-            title: "chat",
-            linkImg: "chat.gif",
-            link: "/curso-python/tree/main/aula4",
-            repositorio: true
-        }
-    ]
     
     return (
         <div id='Projetos'>
