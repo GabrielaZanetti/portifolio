@@ -1,8 +1,7 @@
 #Projetos {
     position: relative;
     .container {
-        margin-top: 60px;
-        margin-bottom: 60px;
+        padding: 60px 0;
         .lista {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;

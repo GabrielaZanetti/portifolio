@@ -2,9 +2,11 @@
 
 .Header {
     width: 100%;
-    position: relative;
+    position: sticky;
+    top: 0;
     background-color: $background;
-
+    z-index: 999;
+    
     @include centralizarDiv;
     .header-itens {
         width: 80%;

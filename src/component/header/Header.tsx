@@ -22,8 +22,8 @@ function Header() {
 
     return (
         <div className="Header">
-            <UIElement text='header' />
             <div className="header-itens">
+                <UIElement text='header' />
                 <div className="nav-bar">
                     <div className="icon">
                         <img src={logo} alt="Icone Nav" />
@@ -55,8 +55,8 @@ function Header() {
                         </div>
                     </div>
                 )}
+                <UIElement text='header' fechar={true} />
             </div>
-            <UIElement text='header' fechar={true} />
         </div>
     )
 }
