@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportifolio=self.webpackChunkportifolio||[]).push([[655],{655:(i,o,t)=>{i.exports=t.p+"static/media/automatizacao.93c0811be2c8939b8116.gif"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportifolio=self.webpackChunkportifolio||[]).push([[63],{63:(c,e,i)=>{c.exports=i.p+"static/media/chat.bf1cd84c2e6adb951fac.gif"}}]);
