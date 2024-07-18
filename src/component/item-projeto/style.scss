@@ -3,6 +3,9 @@
     border-radius: 18px;
     padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     .card-img {
         background-color: #282a36;
         border-radius: 18px;
@@ -12,14 +15,15 @@
         justify-content: center;
         align-items: center;
         .img-projeto {
+            padding: 10px;
             border-radius: 18px;
-            width: 100%;
+            max-width: 100%;
+            max-height: 150px;
         }
     }
     .titulo-projeto {
         text-transform: capitalize;
         font-size: 20px;
-        margin-bottom: 10px;
     }
     .btn-acessar {
         background-color: aqua;
@@ -29,7 +33,7 @@
         text-decoration: none;
         cursor: pointer;
         color: #000;
-
+        margin-bottom: 5px;
         &:hover, &:focus {
             background-color: darken(aqua, 10%);
             border-color: darken(aqua, 10%);
