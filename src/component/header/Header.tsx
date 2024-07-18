@@ -7,6 +7,7 @@ const logo = require('./logo.ico') as any;
 function Header() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    document.body.style.overflow = showMobileMenu && isMobile ? "hidden" : "auto";
     
     useEffect(() => {
         const handleResize = () => {
@@ -17,7 +18,7 @@ function Header() {
 
         return () => {
             window.removeEventListener('resize', handleResize);
-        };
+        };        
     }, []);
 
     return (
