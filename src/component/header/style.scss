@@ -2,8 +2,7 @@
 
 .Header {
     width: 100%;
-    position: sticky;
-    top: 0;
+    position: fixed;
     background-color: $background;
     z-index: 999;
     
@@ -22,7 +21,6 @@
             .nav {
                 display: flex;
                 gap: 2rem;
-                padding: 20px 0;
             }
             .nav-mobile {
                 display: none;
@@ -139,4 +137,7 @@
     &:hover::before{
         opacity: 1;
     }
+}
+.header-fake {
+    height: 100px;
 }
