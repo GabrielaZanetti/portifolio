@@ -1,0 +1,38 @@
+.item-lista {
+    background-color: #828282;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center;
+    .card-img {
+        background-color: #282a36;
+        border-radius: 18px;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .img-projeto {
+            border-radius: 18px;
+            width: 100%;
+        }
+    }
+    .titulo-projeto {
+        text-transform: capitalize;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .btn-acessar {
+        background-color: aqua;
+        border-color: aqua;
+        border-radius: 8px;
+        padding: 5px 10px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #000;
+
+        &:hover, &:focus {
+            background-color: darken(aqua, 10%);
+            border-color: darken(aqua, 10%);
+        }
+    }
+}

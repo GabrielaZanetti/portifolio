@@ -1,6 +1,7 @@
 import React from 'react'
 import UIElement from '../elementUi/UIElement';
 import "./style.scss"
+import ItemLista from '../item-projeto/ItemLista';
 
 const Projetos: React.FC = () => {
     return (
@@ -8,10 +9,8 @@ const Projetos: React.FC = () => {
             <UIElement text='project' />
             <div className="container">
                 <div className="lista">
-                    <div className="item-lista"></div>
-                    <div className="item-lista"></div>
-                    <div className="item-lista"></div>
-                    <div className="item-lista"></div>
+                    <ItemLista title="automatização" linkImg="automatizacao.gif" link="/curso-python/tree/main/aula1" repositorio={true} />
+                    <ItemLista title="chat" linkImg="chat.gif" link="/curso-python/tree/main/aula4" repositorio={true} />
                 </div>
             </div>
             <UIElement text='project' fechar={true} />
