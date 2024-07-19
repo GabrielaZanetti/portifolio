@@ -1,16 +1,16 @@
 {
-  "settings": {
-    "react": {
-      "version": "detect"
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "extends": ["plugin:react/recommended"],
+    "plugins": ["react"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/strinct-boolean-expressins": "off"
     }
-  },
-  "extends": ["plugin:react/recommended"],
-  "plugins": ["react"],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
-  "rules": {
-    "@typescript-eslint/consistent-type-definitions": "off",
-    "@typescript-eslint/strinct-boolean-expressins": "off"
-  }
 }

@@ -1,44 +1,44 @@
-# Portfólio Pessoal - Desenvolvedor Front-end
+# Portfï¿½lio Pessoal - Desenvolvedor Front-end
 
 ## Sobre o Projeto
 
-Este é o repositório do meu portfólio pessoal, desenvolvido com o objetivo de mostrar meus projetos, habilidades e experiências como desenvolvedor front-end pleno. O portfólio foi criado com foco em um design moderno, responsivo e de fácil navegação.
+Este ï¿½ o repositï¿½rio do meu portfï¿½lio pessoal, desenvolvido com o objetivo de mostrar meus projetos, habilidades e experiï¿½ncias como desenvolvedor front-end pleno. O portfï¿½lio foi criado com foco em um design moderno, responsivo e de fï¿½cil navegaï¿½ï¿½o.
 
 ## Tecnologias Utilizadas
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **TypeScript**: Superset tipado de JavaScript que compila para JavaScript simples.
-- **HTML5**: Linguagem de marcação para estruturar o conteúdo da web.
-- **CSS3**: Linguagem de estilização para design visual.
-- **Sass**: Pré-processador CSS para estilização avançada.
-- **Git**: Sistema de controle de versão distribuído.
-- **GitHub**: Plataforma de hospedagem de código-fonte e controle de versão.
-- **Visual Studio Code**: Editor de código-fonte desenvolvido pela Microsoft.
+-   **React**: Biblioteca JavaScript para construï¿½ï¿½o de interfaces de usuï¿½rio.
+-   **TypeScript**: Superset tipado de JavaScript que compila para JavaScript simples.
+-   **HTML5**: Linguagem de marcaï¿½ï¿½o para estruturar o conteï¿½do da web.
+-   **CSS3**: Linguagem de estilizaï¿½ï¿½o para design visual.
+-   **Sass**: Prï¿½-processador CSS para estilizaï¿½ï¿½o avanï¿½ada.
+-   **Git**: Sistema de controle de versï¿½o distribuï¿½do.
+-   **GitHub**: Plataforma de hospedagem de cï¿½digo-fonte e controle de versï¿½o.
+-   **Visual Studio Code**: Editor de cï¿½digo-fonte desenvolvido pela Microsoft.
 
 ## Como Executar o Projeto
 
 Para executar este projeto localmente, siga os passos abaixo:
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/GabrielaZanetti/portifolio.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd portifolio
-   ```
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
+1. Clone este repositï¿½rio:
+    ```bash
+    git clone https://github.com/GabrielaZanetti/portifolio.git
+    ```
+2. Navegue atï¿½ o diretï¿½rio do projeto:
+    ```bash
+    cd portifolio
+    ```
+3. Instale as dependï¿½ncias:
+    ```bash
+    npm install
+    ```
 4. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm start
-   ```
+    ```bash
+    npm start
+    ```
 5. Abra seu navegador e acesse `http://localhost:3000` para visualizar o projeto em desenvolvimento.
 
 ## Contato
 
-- Email: gabiisctt@gmail.com
-- LinkedIn: [Gabriela da Rosa Zanetti](https://www.linkedin.com/in/gabriela-zanetti-88a0401b5/)
-- GitHub: [Gabriela da Rosa Zanetti](https://github.com/GabrielaZanetti)
+-   Email: gabiisctt@gmail.com
+-   LinkedIn: [Gabriela da Rosa Zanetti](https://www.linkedin.com/in/gabriela-zanetti-88a0401b5/)
+-   GitHub: [Gabriela da Rosa Zanetti](https://github.com/GabrielaZanetti)

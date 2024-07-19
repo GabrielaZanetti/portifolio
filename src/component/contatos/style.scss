@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import '../../global.scss';
 
 #Contatos {
     position: relative;
@@ -14,7 +14,10 @@
             padding: 15px;
             border-radius: 100%;
             border: 1px solid $background;
-            transition: background-color 0.3s, border 0.3s ease-in-out, fill 0.3s ease-in-out;
+            transition:
+                background-color 0.3s,
+                border 0.3s ease-in-out,
+                fill 0.3s ease-in-out;
             .svg-icon {
                 fill: $white;
             }
@@ -31,7 +34,12 @@
         }
         .email {
             &:hover {
-                background: conic-gradient(#ea4335 0% 25%, #4285f4 25% 50%, #34a853 50% 75%, #fbbc04 75% 100%);
+                background: conic-gradient(
+                    #ea4335 0% 25%,
+                    #4285f4 25% 50%,
+                    #34a853 50% 75%,
+                    #fbbc04 75% 100%
+                );
             }
         }
     }

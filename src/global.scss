@@ -1,6 +1,6 @@
 $background: #333;
 $white: #fff;
-$roxo: #9B51E0;
+$roxo: #9b51e0;
 
 * {
     font-family: 'Fira Code', monospace;
@@ -12,7 +12,7 @@ $roxo: #9B51E0;
 
 html {
     scroll-behavior: smooth;
-}  
+}
 
 body {
     background-color: $background;
@@ -46,7 +46,8 @@ body {
     color: #fff;
     margin-bottom: 5px;
     text-align: center;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background-color: darken($roxo, 10%);
         border-color: darken($roxo, 10%);
     }

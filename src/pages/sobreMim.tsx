@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../component/header/Header';
+import Header from '../component/header/Header'
 
 const MaisSobre: React.FC = () => {
     return (
@@ -9,4 +9,4 @@ const MaisSobre: React.FC = () => {
     )
 }
 
-export default MaisSobre;
+export default MaisSobre

@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import './style.scss'
 
 interface Props {
@@ -7,13 +7,13 @@ interface Props {
 }
 
 const UIElement: React.FC<Props> = ({ text, fechar = false }) => {
-    const fecharTag = fechar ? "\\" : "";
-    const floatRight = fechar ? "bottom-right" : "top-left";
-    
+    const fecharTag = fechar ? '\\' : ''
+    const floatRight = fechar ? 'bottom-right' : 'top-left'
+
     return (
-        <div className={floatRight + " UIElement"}>
-            <span className={"element"}>&lt;{ fecharTag }</span>
-                { text }
+        <div className={floatRight + ' UIElement'}>
+            <span className={'element'}>&lt;{fecharTag}</span>
+            {text}
             <span className="element">&gt;</span>
         </div>
     )

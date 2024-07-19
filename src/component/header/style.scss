@@ -1,11 +1,11 @@
-@import "../../global.scss";
+@import '../../global.scss';
 
 .Header {
     width: 100%;
     position: fixed;
     background-color: $background;
     z-index: 999;
-    
+
     @include centralizarDiv;
     .header-itens {
         width: 80%;
@@ -104,16 +104,18 @@
                 }
             }
             #menu-mobile {
-                transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+                transition:
+                    max-height 0.3s ease-in-out,
+                    opacity 0.3s ease-in-out;
                 max-height: 0;
                 opacity: 0;
-                overflow: hidden;            
+                overflow: hidden;
             }
             #menu-mobile.show {
                 max-height: 100vh;
                 opacity: 1;
             }
-            
+
             #menu-mobile.hide {
                 max-height: 0;
                 opacity: 0;
@@ -125,7 +127,7 @@
     font-size: 22px;
     color: $white;
     text-decoration: none;
-    position: relative; 
+    position: relative;
     &::before {
         content: '#';
         position: absolute;
@@ -134,7 +136,7 @@
         opacity: 0;
         transition: opacity 0.3s ease;
     }
-    &:hover::before{
+    &:hover::before {
         opacity: 1;
     }
 }
