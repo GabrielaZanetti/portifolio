@@ -14,7 +14,7 @@
             padding: 15px;
             border-radius: 100%;
             border: 1px solid $background;
-            transition: background-color 0.3s, border 0.3s ease-in-out;
+            transition: background-color 0.3s, border 0.3s ease-in-out, fill 0.3s ease-in-out;
             .svg-icon {
                 fill: $white;
             }
@@ -31,10 +31,7 @@
         }
         .email {
             &:hover {
-                border-top-color: #4285f4;
-                border-bottom-color: #ea4335;
-                border-left-color: #fbbc04;
-                border-right-color: #34a853;
+                background: conic-gradient(#ea4335 0% 25%, #4285f4 25% 50%, #34a853 50% 75%, #fbbc04 75% 100%);
             }
         }
     }
