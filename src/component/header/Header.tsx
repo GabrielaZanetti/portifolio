@@ -31,9 +31,9 @@ function Header() {
                             <img src={logo} alt="Icone Nav" />
                         </div>
                         <div className="nav">
-                            <a href="#Sobre" className="nav-item">Sobre</a>
-                            <a href="#Projetos" className="nav-item">Projetos</a>
-                            <a href="#Contatos" className="nav-item">Contatos</a>
+                            <a href="/portifolio/#Sobre" className="nav-item">Sobre</a>
+                            <a href="/portifolio/#Projetos" className="nav-item">Projetos</a>
+                            <a href="/portifolio/#Contatos" className="nav-item">Contatos</a>
                         </div>
                         <div className="nav-mobile">
                             <div className="wrapper">
@@ -51,9 +51,9 @@ function Header() {
                     {isMobile && (
                         <div id="menu-mobile" className={`nav-mobile ${showMobileMenu ? 'show' : 'hide'}`}>
                             <div className="itens-mobile">
-                                <a onClick={() => setShowMobileMenu(false)} href="#Sobre" className="nav-item">Sobre</a>
-                                <a onClick={() => setShowMobileMenu(false)} href="#Projetos" className="nav-item">Projetos</a>
-                                <a onClick={() => setShowMobileMenu(false)} href="#Contatos" className="nav-item">Contatos</a>
+                                <a onClick={() => setShowMobileMenu(false)} href="/portifolio/#Sobre" className="nav-item">Sobre</a>
+                                <a onClick={() => setShowMobileMenu(false)} href="/portifolio/#Projetos" className="nav-item">Projetos</a>
+                                <a onClick={() => setShowMobileMenu(false)} href="/portifolio/#Contatos" className="nav-item">Contatos</a>
                             </div>
                         </div>
                     )}
