@@ -20,7 +20,7 @@ body {
     color: $white;
 }
 
-@mixin centralizarDiv {
+.centralizar-div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,4 +125,8 @@ body {
 #maisSobre {
     position: relative;
     padding: 30px 0;
+}
+
+a {
+    cursor: pointer;
 }

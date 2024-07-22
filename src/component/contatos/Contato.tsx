@@ -6,7 +6,7 @@ const Contatos: React.FC = () => {
     return (
         <div id="Contatos">
             <UIElement text="contact" />
-            <div className="lista-contatos container">
+            <div className="lista-contatos container centralizar-div">
                 <a
                     className="item-contato linkedin"
                     href="https://www.linkedin.com/in/gabriela-zanetti-88a0401b5/"

@@ -8,7 +8,7 @@ const Projetos: React.FC = () => {
     return (
         <div id="Projetos">
             <UIElement text="project" />
-            <div className="container">
+            <div className="container centralizar-div">
                 <div className="lista">
                     {arrayProjetos.map(
                         ({ title, linkImg, link, repositorio }, index) => (

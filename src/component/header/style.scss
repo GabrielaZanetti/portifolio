@@ -5,14 +5,11 @@
     position: fixed;
     background-color: $background;
     z-index: 999;
-
-    @include centralizarDiv;
     .header-itens {
         width: 80%;
         margin: 0 auto;
         padding: 20px 0;
         .nav-bar {
-            @include centralizarDiv;
             .icon {
                 img {
                     height: 50px;

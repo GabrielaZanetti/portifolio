@@ -7,7 +7,7 @@ const Sobre: React.FC = () => {
     return (
         <div id="Sobre">
             <UIElement text="about" />
-            <div className="container">
+            <div className="container centralizar-div">
                 <div className="mensagem-sobre">
                     <div className="titulo">Ola, sou a Gabi</div>
                     <div className="mensagem">

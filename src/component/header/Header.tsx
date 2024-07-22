@@ -24,10 +24,10 @@ function Header() {
 
     return (
         <>
-            <div className="Header">
+            <div className="Header centralizar-div">
                 <div className="header-itens">
                     <UIElement text="header" />
-                    <div className="nav-bar">
+                    <div className="nav-bar centralizar-div">
                         <div className="icon">
                             <img src={logo} alt="Icone Nav" />
                         </div>
