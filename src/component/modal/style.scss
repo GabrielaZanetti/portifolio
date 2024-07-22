@@ -39,8 +39,10 @@
         }
         .modal-body {
             height: 100%;
-            overflow-x: hidden;
-            overflow-y: auto;
+            overflow: hidden;
+            @media (max-width: 768px) {
+                overflow: auto;
+            }
         }
         .modal-footer {
             margin-top: 10px;

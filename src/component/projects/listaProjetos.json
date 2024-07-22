@@ -3,12 +3,25 @@
         "title": "automatização",
         "linkImg": "automatizacao.gif",
         "link": "/curso-python/tree/main/aula1",
-        "repositorio": true
+        "repositorio": true,
+        "tecnologias": ["python"],
+        "resumo": "Projeto de automatização de tarefas.",
+        "sobre": [
+            "Cadastrar Produtos Automaticamente: Utilizar um arquivo CSV contendo informações de produtos (como código, marca, tipo, preço unitário, custo e observações) para cadastrar esses produtos em um sistema de forma automatizada.",
+            "Automação com Python: Usar a biblioteca Pyautogui para controlar o mouse e o teclado, simulando as ações que um usuário faria manualmente."
+        ]
     },
     {
         "title": "chat",
         "linkImg": "chat.gif",
         "link": "/curso-python/tree/main/aula4",
-        "repositorio": true
+        "repositorio": true,
+        "tecnologias": ["python", "html", "css"],
+        "resumo": "Projeto de um chat ao vivo.",
+        "sobre": [
+            "Conexão em Tempo Real: Permite que os usuários se conectem ao chat e vejam as mensagens em tempo real.",
+            "Envio e Recebimento de Mensagens: Os usuários podem enviar e receber mensagens instantaneamente.",
+            "Interface Dinâmica: A página do chat atualiza automaticamente conforme as mensagens são enviadas e recebidas."
+        ]
     }
 ]
