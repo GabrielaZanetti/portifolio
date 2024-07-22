@@ -127,6 +127,21 @@ body {
     padding: 30px 0;
 }
 
-a {
+button, a, path {
     cursor: pointer;
 }
+
+/* Customização básica do scroll */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: darken($roxo, 10%);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: $background;
+}
+  
