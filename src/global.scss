@@ -28,8 +28,6 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-
-    @include centralizarDiv();
 }
 
 .float-right {

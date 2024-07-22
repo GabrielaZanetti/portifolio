@@ -2,6 +2,9 @@
 
 #Contatos {
     position: relative;
+    .container {
+        @include centralizarDiv();
+    }
     .lista-contatos {
         padding: 60px 0;
         justify-content: center;

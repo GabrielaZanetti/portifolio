@@ -1,7 +1,9 @@
+@import '../../global.scss';
 #Projetos {
     position: relative;
     .container {
         padding: 60px 0;
+        @include centralizarDiv();
         .lista {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -1,7 +1,10 @@
+@import '../../global.scss';
+
 #Sobre {
     position: relative;
     .container {
         padding: 60px 0;
+        @include centralizarDiv();
         .mensagem-sobre {
             width: 40%;
             .titulo {
