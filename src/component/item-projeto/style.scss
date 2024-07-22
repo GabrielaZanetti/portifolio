@@ -39,6 +39,10 @@
         top: 0;
         right: 0;
         transition: .2s all;
+        @media (max-width: 768px) {
+            background-color: #828282b7;
+            opacity: 1;
+        }
         &:hover {
             background-color: #828282b7;
             opacity: 1;
@@ -101,6 +105,17 @@
                 img {
                     max-width: 100%;
                     max-height: 100%;
+                }
+            }
+        }
+        .links {
+            margin-top: 10px;
+            .btn-acessar {
+                color: #fff;
+                text-decoration: none;
+                margin-left: 10px;
+                &:hover {
+                    text-decoration: underline;
                 }
             }
         }

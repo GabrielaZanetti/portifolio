@@ -93,6 +93,9 @@ const ItemLista: React.FC<Props> = ({
                                     </div>
                                 ))}
                             </div>
+                            <div className="links">
+                                <a href={linkView} target="_blank" className="btn-acessar" rel="noreferrer">Acessar o {tipoLink}</a>
+                            </div>
                         </div>
                     </div>
                 </Modal>
