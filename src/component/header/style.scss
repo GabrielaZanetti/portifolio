@@ -121,7 +121,6 @@
     }
 }
 .nav-item {
-    font-size: 22px;
     color: $white;
     text-decoration: none;
     position: relative;
@@ -135,6 +134,7 @@
     }
     &:hover::before {
         opacity: 1;
+        color: $verde;
     }
 }
 .header-fake {

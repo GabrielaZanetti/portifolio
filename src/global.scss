@@ -1,10 +1,12 @@
 $background: #333;
 $white: #fff;
 $roxo: #9b51e0;
+$verde: #37ff8b;
 
 * {
     font-family: 'Fira Code', monospace;
-    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.5;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -45,16 +47,24 @@ body {
     color: #fff;
     margin-bottom: 5px;
     text-align: center;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out, border-color .5s ease-in-out;
+    svg {
+        transition: fill .5s ease-in-out;
+    }
     &:hover,
     &:focus {
-        background-color: darken($roxo, 10%);
-        border-color: darken($roxo, 10%);
+        background-color: darken($verde, 10%);
+        border-color: darken($verde, 10%);
+        color: #000;
+        svg {
+            fill: #000;
+        }
     }
 }
 
 .titulo {
     text-align: center;
-    font-size: 24px;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -90,10 +100,10 @@ body {
             border-radius: 0 0 8px 0;
         }
         .card-title {
-            font-size: 18px;
+            font-size: 1.3rem;
             text-align: center;
             .sub-titulo {
-                font-size: 18px;
+                font-size: 1.3rem;
                 color: #9e9e9e;
                 &:hover {
                     color: $roxo;

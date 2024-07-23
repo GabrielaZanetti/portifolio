@@ -24,7 +24,6 @@
     }
     .titulo-projeto {
         text-transform: capitalize;
-        font-size: 20px;
     }
     .card-acoes {
         position: absolute;
@@ -72,7 +71,6 @@
         overflow-y: hidden;
         img {
             height: 100%;
-            max-width: 100%;
         }
     }
     .infos-projetos {
@@ -82,7 +80,7 @@
             text-transform: capitalize;
         }
         .resumo {
-            font-size: 18px;
+            font-size: 1.3rem;
             margin-bottom: 8px;
         }
         .sobre {
