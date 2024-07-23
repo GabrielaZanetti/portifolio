@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './style.scss'
 import Modal from '../modal/modal'
 import { LOADIPHLPAPI } from 'dns'
+import IconTecnologia from './itemTecnologia'
 
 interface Props {
     title: string
@@ -29,23 +30,11 @@ const ItemLista: React.FC<Props> = ({
         : link
     const [modalOpen, setModal] = useState(false)
     document.body.style.overflow = modalOpen ? 'hidden' : 'auto'
-    const [listTecnologias, setListTecnologias] = useState([]);
 
     useEffect(() => {
         import(`./image/${linkImg}`)
             .then((img) => setImagem(img.default))
             .catch((err) => console.error(err))
-
-        let lista = [];
-        tecnologias.forEach(element => {
-            import(`./image/${element}.png`)
-            .then((img) => {
-                lista.push(img.default)
-            })
-            .catch((err) => console.error(err));
-        });
-        setListTecnologias(lista);
-          
     }, [linkImg])
 
     return (
@@ -87,10 +76,8 @@ const ItemLista: React.FC<Props> = ({
                                 ))}
                             </ul>
                             <div className="tecnologias">
-                                {listTecnologias.map((img, index) => (
-                                    <div className="item-tecnologia" key={index}>
-                                        <img src={img}/>
-                                    </div>
+                                {tecnologias.map((element, index) => (
+                                    <IconTecnologia key={index} iconType={element} />
                                 ))}
                             </div>
                             <div className="links">
