@@ -1,6 +1,7 @@
 import React from 'react'
 import UIElement from '../elementUi/UIElement'
 import './style.scss'
+import { Link } from 'react-router-dom'
 const eu = require('./eu.png') as any
 
 const Sobre: React.FC = () => {
@@ -31,9 +32,7 @@ const Sobre: React.FC = () => {
                         área. Também estou explorando o design e desenvolvendo
                         projetos básicos de back-end.
                     </div>
-                    <a href="/mais-sobre" className="btn-purple">
-                        Mais sobre mim
-                    </a>
+                    <Link to="/mais-sobre" className="btn-purple">Mais sobre mim</Link>
                 </div>
                 <div className="foto">
                     <img src={eu} alt="Olá, sou a Gabriela" />
