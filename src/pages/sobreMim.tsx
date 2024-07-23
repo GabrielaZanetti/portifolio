@@ -5,6 +5,8 @@ import UIElement from '../component/elementUi/UIElement'
 const curriculo = require('./Profile.pdf') as any
 
 const MaisSobre: React.FC = () => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+
     return (
         <>
             <Header />
