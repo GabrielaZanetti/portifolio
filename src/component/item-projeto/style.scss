@@ -61,21 +61,26 @@
     }
 }
 .infos-projeto {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
     width: 100%;
     height: 100%;
+    display: flex;
     .img-projeto {
         overflow-x: auto;
         overflow-y: hidden;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
         img {
-            height: 100%;
+            width: 100%;
         }
     }
     .infos-projetos {
         overflow-x: hidden;
         overflow-y: auto;
+        width: 40%;
+        padding: 20px;
         .titulo {
             text-transform: capitalize;
         }
@@ -83,10 +88,11 @@
             font-size: 1.3rem;
             margin-bottom: 2rem;
             text-align: center;
+            font-family: "Open Sans", sans-serif;
         }
         .sobre {
             margin-top: 10px;
-            font-family: "Roboto", sans-serif;
+            font-family: "Open Sans", sans-serif;
             line-height: 1.5;
             list-style-position: inside;
         }
@@ -198,10 +204,10 @@
         }
     }
     @media (max-width: 768px) {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         overflow: auto;
         height: auto;
-        .img-projeto {
+        .img-projeto, .infos-projetos {
             width: 100%;
             img {
                 height: auto;
