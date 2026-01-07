@@ -1,33 +1,33 @@
-# Portf�lio Pessoal - Desenvolvedor Front-end
+# Portfólio Pessoal - Desenvolvedor Front-end
 
 ## Sobre o Projeto
 
-Este � o reposit�rio do meu portf�lio pessoal, desenvolvido com o objetivo de mostrar meus projetos, habilidades e experi�ncias como desenvolvedor front-end pleno. O portf�lio foi criado com foco em um design moderno, responsivo e de f�cil navega��o.
+Este é o repositório do meu portfólio pessoal, desenvolvido com o objetivo de mostrar meus projetos, habilidades e experiências como desenvolvedor front-end pleno. O portfólio foi criado com foco em um design moderno, responsivo e de fácil navegação.
 
 ## Tecnologias Utilizadas
 
--   **React**: Biblioteca JavaScript para constru��o de interfaces de usu�rio.
+-   **React**: Biblioteca JavaScript para construção de interfaces de usuário.
 -   **TypeScript**: Superset tipado de JavaScript que compila para JavaScript simples.
--   **HTML5**: Linguagem de marca��o para estruturar o conte�do da web.
--   **CSS3**: Linguagem de estiliza��o para design visual.
--   **Sass**: Pr�-processador CSS para estiliza��o avan�ada.
--   **Git**: Sistema de controle de vers�o distribu�do.
--   **GitHub**: Plataforma de hospedagem de c�digo-fonte e controle de vers�o.
--   **Visual Studio Code**: Editor de c�digo-fonte desenvolvido pela Microsoft.
+-   **HTML5**: Linguagem de marcação para estruturar o conteúdo da web.
+-   **CSS3**: Linguagem de estilização para design visual.
+-   **Sass**: Pré-processador CSS para estilização avançada.
+-   **Git**: Sistema de controle de versão distribuído.
+-   **GitHub**: Plataforma de hospedagem de código-fonte e controle de versão.
+-   **Visual Studio Code**: Editor de código-fonte desenvolvido pela Microsoft.
 
 ## Como Executar o Projeto
 
 Para executar este projeto localmente, siga os passos abaixo:
 
-1. Clone este reposit�rio:
+1. Clone este repositório:
     ```bash
     git clone https://github.com/GabrielaZanetti/portifolio.git
     ```
-2. Navegue at� o diret�rio do projeto:
+2. Navegue até o diretório do projeto:
     ```bash
     cd portifolio
     ```
-3. Instale as depend�ncias:
+3. Instale as dependências:
     ```bash
     npm install
     ```
@@ -40,5 +40,5 @@ Para executar este projeto localmente, siga os passos abaixo:
 ## Contato
 
 -   Email: gabiisctt@gmail.com
--   LinkedIn: [Gabriela da Rosa Zanetti](https://www.linkedin.com/in/gabriela-zanetti-88a0401b5/)
+-   LinkedIn: [Gabriela da Rosa Zanetti](https://www.linkedin.com/in/gabriela-da-rosa-zanetti-88a0401b5/)
 -   GitHub: [Gabriela da Rosa Zanetti](https://github.com/GabrielaZanetti)
