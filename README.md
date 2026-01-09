@@ -1,27 +1,16 @@
-# 🚀 Gabi — Desenvolvedora Full-Stack
+# Gabriela Zanetti - Programadora front-end
 
-Olá! 👋 Meu nome é **Gabi** e sou desenvolvedora de software com foco em aplicações web e mobile. Tenho experiência com diversas linguagens e frameworks, com ênfase em **React Native**, **React**, **TypeScript**, **Angular**, **Laravel**, **Flutter**, **HTML** e **Sass**.
-
-## 🧠 Tecnologias & Ferramentas
-
-### Linguagens e Frameworks
+Olá! Meu nome é **Gabi** e sou desenvolvedora de software com foco em aplicações web e mobile. Tenho experiência com diversas linguagens e frameworks, com ênfase em **React Native**, **React**, **TypeScript**, **Laravel**/**Smarty PHP**, **PHP** e **Sass**.
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,typescript,angular,laravel,flutter,html,sass" alt="Tech Icons" />
+  <img src="https://skillicons.dev/icons?i=react,typescript,laravel,php,python,sass" alt="Tech Icons" />
 </div>
-
-- **React** — Desenvolvimento de interfaces web modernas e escaláveis  
-- **TypeScript** — Tipagem estática para JavaScript, aumento de confiabilidade  
-- **Angular** — Aplicações web estruturadas e corporativas  
-- **Laravel** — Backend robusto em PHP com arquitetura MVC  
-- **Flutter** — Aplicações mobile multiplataforma com alta performance  
-- **HTML & Sass** — Marcação semântica e estilos escaláveis com pré-processador
 
 ## 💼 Experiência
 
 Tenho atuado principalmente com:
 - Desenvolvimento de aplicações **web responsivas**  
-- Aplicativos **mobile híbridos** com React Native e Flutter  
+- Aplicativos **mobile híbridos** com React Native  
 - APIs e backends com **Laravel/PHP**  
 - Integração com banco de dados e serviços REST
 
@@ -35,8 +24,5 @@ Tenho atuado principalmente com:
 ## 📫 Contato
 
 📧 **Email:** gabiisctt@gmail.com  
-🔗 **GitHub:** https://github.com/seu-usuario (atualize com seu perfil)
+🔗 **Linkedin:** [Gabriela da Rosa Zanetti)](https://www.linkedin.com/in/gabriela-da-rosa-zanetti-88a0401b5/)
 
----
-
-Obrigado por visitar meu perfil! Se tiver interesse em colaborar ou conhecer mais sobre meus projetos, fique à vontade para entrar em contato. 😊
