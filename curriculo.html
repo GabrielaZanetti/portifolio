@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Gabriela da Rosa Zanetti</title>
+    
+    <style>
+        :root {
+            --bg: #f7f7fb;
+            --card: #fff;
+            --accent: #2b6cb0;
+            --muted: #667085;
+            --text: #0f1724;
+            --radius: 10px;
+            --shadow: 0 8px 24px rgba(15, 15, 30, 0.06)
+        }
+
+        *, *::before, *::after { box-sizing: border-box }
+
+        body {
+            margin: 0; padding: 24px; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+            line-height: 1.5; color: var(--text); background: var(--bg)
+        }
+        
+        #voltar-inicio {
+            max-width: 960px;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        #voltar-inicio a {
+            color: var(--accent);
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            background: var(--card);
+            padding: 28px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow)
+        }
+
+        /* Grid layout */
+        .profile-grid { display: grid; grid-template-columns: 280px 1fr; gap: 28px }
+
+        header { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px }
+        h1 { font-size: 1.6rem; margin: 0 }
+        h2 { font-size: 1.05rem; margin-bottom: 6px }
+        .headline { color: var(--muted); font-size: 0.98rem }
+        .meta { font-size: 0.9rem; color: var(--muted) }
+        .meta a { color: var(--accent); text-decoration: none }
+
+        .section { margin-bottom: 18px }
+        ul { padding-left: 1.15rem; margin: 0 0 0.5rem 0 }
+
+        /* Left column */
+        .left { padding: 18px; border-radius: 8px; background: linear-gradient(180deg,#fff,#fbfdff); border: 1px solid #eef2f6 }
+        .avatar { width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg,var(--accent),#4c9bd6); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:700; font-size:2rem; margin:0 auto }
+        .contact { margin-top: 14px; font-size:0.95rem; color: var(--muted); text-align:center }
+        .contact a { color: var(--accent) }
+        .skills { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+        .skill-badge { background:#eef6ff; color:var(--accent); padding:6px 10px; border-radius:999px; font-size:0.88rem }
+
+        .download { display:inline-block; padding:8px 12px; border-radius:6px; background:var(--accent); color:#fff; text-decoration:none; font-weight:600 }
+
+        footer { font-size:0.85rem; color:var(--muted); text-align:center; margin-top:20px; border-top:1px solid #eef1f6; padding-top:12px }
+
+        @media (max-width:880px) { .profile-grid { grid-template-columns:1fr } .container{ padding:18px } }
+
+        @media print {
+            body { background:#fff; padding:0; -webkit-print-color-adjust:exact; print-color-adjust:exact }
+            .container { box-shadow:none; border-radius:0; padding:12px }
+            .left { background:transparent; border:0 }
+            .skill-badge { page-break-inside:avoid }
+            .download { display:none }
+        }
+    </style>
+</head>
+<body>
+    <div id="voltar-inicio">
+        <a href="./index.html">&larr; Voltar</a>
+    </div>
+<main class="container" role="main">
+    <header>
+        <h1>Gabriela da Rosa Zanetti</h1>
+        <p class="headline"><strong>Desenvolvedora Front-End & Mobile</strong></p>
+        <p class="meta">
+            <a href="https://www.linkedin.com/in/gabriela-da-rosa-zanetti-88a0401b5/" target="_blank" rel="noopener noreferrer">LinkedIn</a> •
+            <a href="https://gabrielazanetti.github.io/portifolio/" target="_blank" rel="noopener noreferrer">Portfólio</a> •
+            <a href="https://github.com/GabrielaZanetti" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+    </header>
+
+    <section class="section">
+        <h2>Resumo Profissional</h2>
+        <p>
+            Profissional de tecnologia com experiência no desenvolvimento de aplicações móveis e web. Atua atualmente no desenvolvimento de aplicativos com React Native, além de trabalhar com PHP e Smarty PHP. Possui foco em código limpo, organizado e alinhado às boas práticas, contribuindo para soluções escaláveis, performáticas e aderentes às necessidades do produto.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Formação Acadêmica</h2>
+        <p>
+            <strong>Bacharelado em Ciência da Computação</strong> — Universidade Regional do Noroeste do Estado do Rio Grande do Sul (Unijuí)<br>
+            Início: 2022 • Previsão de conclusão: 2027
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li>Desenvolvimento e manutenção de aplicações móveis com React Native em ambiente de produção.</li>
+            <li>Atuação em sistemas web utilizando PHP e Smarty PHP, com integração a banco de dados via SQL.</li>
+            <li>Implementação de novas funcionalidades, correções e melhorias contínuas conforme requisitos do negócio.</li>
+            <li>Consumo e integração com APIs REST, colaborando com equipes multidisciplinares ao longo do ciclo de desenvolvimento.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Projetos Selecionados</h2>
+        <ul>
+            <li><strong>Chat (projeto pessoal):</strong> desenvolvimento de sistema de chat com foco em UI, componentização e experiência do usuário.</li>
+            <li><strong>Automatizações em Python:</strong> criação de scripts para automação de tarefas e suporte a fluxos internos.</li>
+            <li><strong>Aplicativo da Unijuí:</strong> manutenção evolutiva, correções e melhorias de interface no front-end.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Conhecimentos Técnicos</h2>
+        <ul>
+            <li><strong>Front-End:</strong> HTML, CSS, Sass, React, React Native, Smarty PHP e Angular</li>
+            <li><strong>Back-End:</strong> Python</li>
+            <li><strong>Bancos de Dados:</strong> SQL</li>
+            <li><strong>Frameworks & UI:</strong> Bootstrap, NextUI</li>
+            <li><strong>Ferramentas:</strong> Git, Jest, React Testing Library, ESLint, Prettier, Vite</li>
+            <li><strong>Outros:</strong> Consumo de APIs REST, acessibilidade (a11y), performance web, Figma</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Habilidades Comportamentais</h2>
+        <ul>
+            <li>Aprendizado contínuo e curiosidade técnica</li>
+            <li>Trabalho em equipe e colaboração multidisciplinar</li>
+            <li>Organização e gestão de prioridades</li>
+            <li>Boa comunicação técnica</li>
+            <li>Adaptabilidade a novas tecnologias</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Português: Nativo</li>
+            <li>Inglês: Leitura técnica</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Disponível para atuação em projetos web e mobile</p>
+    </footer>
+</main>
+</body>
+</html>
